@@ -1,0 +1,21 @@
+h1 {
+    color: teal;
+    text-align: center;
+}
+
+h3 {
+    color: steelblue;
+    font-size: 25px;
+}
+
+#resultFactorial {
+    font-size: 50px;
+    text-align: center;
+    color: slateblue;
+}
+
+#resultPrime {
+    font-size: 50px;
+    text-align: center;
+    color: teal ;
+}

@@ -1,0 +1,40 @@
+body{
+    border: yellow 20px solid;
+}
+/*
+h2{
+   /*
+    color: teal;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    border: red 20px solid;
+}*/
+
+ p, h2
+ {
+    border: green 20px solid;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+ }
+
+ div{
+    border: blue 20px solid;
+    /*border-bottom-color: blueviolet;
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;*/
+}
+
+p.primeros{
+    color:yellow;
+}
+
+p#p1, p#div1{
+    color: royalblue;
+}
+
+p.segundos {
+    color: red;
+}
+
+

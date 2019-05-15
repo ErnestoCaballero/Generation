@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prueba de controles</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pide una pizza online</h1>
+        </header>
+        <div class="row">
+            <div class="form-group">
+                <p>
+                    <label for="txtNombre">Nombre: </label>
+                    <input type="text" id="txtNombre" name="txtNombre" class="form-control">
+                    <label for="txtApellido">Apellido: </label>
+                    <input type="text" id="txtApellido" class="form-control">
+                </p>
+                <p>
+                    <input type="button" class="btn btn-primary" value="¡Dale Click!">
+                    <input type="button" class="btn btn-warning" value="Precaución">
+                    <input type="button" class="btn btn-danger" value="Cuidado">
+                    <input type="button" class="btn btn-default" value="Nada">
+                </p>
+                <p>
+                    <h2>Selecciona una Pizza!</h2>
+                    <div class="radio">
+                        <input type="radio" id="rbnPepperoni" name="pizza"><label for="rbnPepperoni">Pepperoni</label></input>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="rbnHawaiiana" name="pizza"><label for="rbnHawaiiana">Hawaiiana</label></input>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="rbnThreeCheese" name="pizza"><label for="rbnThreeCheese">Tres Quesos</label></input>
+                    </div>
+                </p>
+                <div id="miId02" class="form-group">
+                    <label id="especialidad" for="selectPizza">Selecciona la especialidad</label>
+                    <select name="" id="selectPizza" class="form-control">
+                        <option>Hawaiiana</option>
+                        <option>Pepperoni</option>
+                        <option>Tres quesos</option>
+                    </select>
+                </div>
+                <div id="miId01" class="form-group">
+                    <label id="especialidades" for="selectPizzas">Selecciona la especialidad</label>
+                    <select multiple class="form-contorl" id="selectPizzas">
+                        <option value="">Pepperoni</option>
+                        <option value="">Hawaiiana</option>
+                        <option value="">Tres Quesos</option>
+                        <option value="">Meaty</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div>
+        <table class="table table-striped table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ernesto</td>
+                    <td>Caballero</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>Silvia</td>
+                    <td>Caballero</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>José Bernie</td>
+                    <td>Muñoz</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
+</html>

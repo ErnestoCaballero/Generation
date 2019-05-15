@@ -1,0 +1,33 @@
+h1{
+    color: teal;
+}
+
+body {
+    background:white url(https://htmldog.com/images/bg.gif) no-repeat top right;
+}
+
+/*div {
+    url(https://htmldog.com/images/bg.gif) 20% 0% / contain repeat-y fixed content-box padding-box #fff;
+}*/
+
+li {
+    display: inline;
+    text-decoration: none;
+}
+
+#pianito {
+    width: 500px;
+    height: 500px;
+}
+
+a:hover{
+    color: red;
+}
+
+a: visited {
+    color: red;
+}
+
+a: active {
+
+}

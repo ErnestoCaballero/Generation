@@ -1,0 +1,24 @@
+h2 {
+    color: teal;
+}
+
+.container {
+    border: teal solid;
+}
+
+#especialidad {
+    color: teal;
+    font-size: 20px;
+}
+
+#especialidades {
+    color: teal;
+    font-size: 20px;
+}
+
+#miId01 {
+    border: black solid;
+}
+ #miId02 {
+     border: black solid;
+ }

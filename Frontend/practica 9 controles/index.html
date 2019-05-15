@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Práctica 9</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+<body>
+    <div class="container">
+        <div class="row">
+                <p class="h2">Datos Personales</p>
+        </div>
+        <div class="row">
+            <form action="" method="post">
+                <div class="form-group">
+                    <p>
+                        <label for="txtNombre">Nombre:</label>
+                        <input type="text" id="txtNombre" name="txtNombre" class="form-control">
+                    </p>
+                </div>  
+                <div class="form-group">
+                    <p>
+                        <label for="txtApellido">Apellido:</label>
+                        <input type="text" id="txtApellido" name="txtApellido" class="form-control">
+                    </p>
+                </div>  
+                <div class="form-group">
+                    <p>
+                        <input type="button" value="Dale Click!" class="btn btn-default">
+                        <input type="button" value="Dale Click!" class="btn btn-primary">
+                        <input type="button" value="Dale Click!" class="btn btn-warning">
+                        <input type="submit" value="Dale Click!" class="btn btn-danger">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <p>Selecciona una Pizza</p>
+                    <div class="radio">
+                    <input type="radio" id="rbdPizzaPepperoni" name="rbdPizzas"><label for="rbdPizzaPepperoni">Pepperoni</label></input>
+                    </div>
+                    <div class="radio">
+                    <input type="radio" id="rbdPizzaMexicana" name="rbdPizzas"><label for="rbdPizzaMexicana">Mexicana</label></input>
+                    </div>
+                    <div class="radio">
+                    <input type="radio" id="rbdPizzaHawaiiana" name="rbdPizzas"><label for="rbdPizzaHawaiiana">Hawaiiana</label></input>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="dropdown">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                Inicio
+            </button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Eventos</a>
+                <a href="#" class="dropdown-item">Hoy</a>
+                <a href="#" class="dropdown-item">International</a>
+            </div>
+        </div>
+        
+        <table class="table table-striped table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>id</th> <th>Name</th><th>Adress</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>001</td><td>Ernesto</td><td>Segunda Norte 5206</td></tr>
+                <tr><td>002</td><td>Pablo</td><td>Av. México 250</td></tr>
+                <tr><td>003</td><td>Víctor</td><td>Abedules 53</td></tr>
+                <tr><td><input type="text" class="form-control"></td><td><input type="text"class="form-control"></td><td><input type="text" class="form-control"></td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td>suma</td><td>Something</td><td>Something</td></tr>
+            </tfoot>
+        </table>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14933.353748093383!2d-103.39917789999998!3d20.655805700000002!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1552513333003" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

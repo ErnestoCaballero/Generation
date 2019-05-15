@@ -1,0 +1,13 @@
+h1 {
+    color: teal;
+}
+
+#borde {
+    border-width: 1px;
+    border-style: solid;
+    border-color: teal;
+}
+
+div.container {
+    border: black solid;
+}

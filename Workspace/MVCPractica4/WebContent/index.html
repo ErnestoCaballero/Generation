@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Práctica 4 - Datos Personales</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="DatosPersonalesServlet" method="post">
+    <h2>Práctica 4 - Datos Personales</h2>
+
+    <div>
+    <p>
+        <label for="txtNombre">Nombre: </label>
+        <input type="text" id="txtNombre" name="txtNombre">
+    </p>
+    <p>
+        <label for="txtPaterno">Apellido Paterno: </label>
+        <input type="text" id="txtPaterno" name="txtPaterno">
+    </p>
+    <p>
+        <label for="txtMaterno">Apellido Materno: </label>
+        <input type="text" id="txtMaterno" name="txtMaterno">
+    </p>
+    <p>
+        <label for="txtEdad">Edad: </label>
+        <input type="text" id="txtEdad" name="txtEdad">
+    </p>
+    <p>
+        <label for="txtEstatura">Estatura: </label>
+        <input type="text" id="txtEstatura" name="txtEstatura"> 
+    </p>
+    <p>
+        <h3>Sexo</h3>
+            <input type="radio" name="txtGenero" value="Masculino">Masculino <br>
+            <input type="radio" name="txtGenero" value="Femenino"> Femenino <br>
+    </p>
+    <p>
+        <h3>Mascotas</h3>
+            <input type="checkbox" name="cbMascota" value="gato">Gato <br>
+            <input type="checkbox" name="cbMascota" value="perro">Perro <br>
+            <input type="checkbox" name="cbMascota" value="pajaro">Pájaro <br>
+    </p>
+    <input type="submit" value = "Oprímelo">
+</form>
+</div>
+    
+    
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
+</html>

@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://previews.123rf.com/images/hatza/hatza1303/hatza130300070/18336346-mathematics-background.jpg")
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    background-color: brown;
+}
+
+.centro {
+    margin:0 auto;
+    width: 200px;
+}
+
+.centro1 {
+    margin:0 auto;
+    width: 550px;
+}
+
+.form-group {
+    align-content: center;
+}
+
+#label1 {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+
+#label2 {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+
+#btnSumar {
+    align-self: center;
+}

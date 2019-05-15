@@ -1,0 +1,24 @@
+{
+    "Películas":
+    {
+        "Horror":
+        [
+            "Feast", "Conjuring", "Chucky", "Json"
+        ],
+        "Documentales":
+        [
+            "Cosmos", "La Tierra", "Inside Job"
+        ]
+    }, 
+    "Canciones":
+    {
+        "Rock":
+        [
+            "Ingrata", "El Ansioso", "El Golpazo"
+        ],
+        "Electrónica":
+        [
+            "In Out of Love", "Minak", ""
+        ]
+    }
+}

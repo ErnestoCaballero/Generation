@@ -1,0 +1,34 @@
+h2{
+    color:white;
+    text-align: center;
+    font-size: xx-large;
+    background-color: black;
+}
+
+header{
+    background-color: beige;
+}
+#Parrafo1{
+    color: darkblue;
+    font-style: italic;
+}
+
+#Parrafo2{
+    color: indigo;
+}
+
+#Parrafo3{
+    color: seagreen;
+}
+
+#Parrafo4{
+    color: mediumblue;
+}
+
+.manifiesto1{
+    background-color: violet;
+}
+
+.manifiesto2{
+    background-color: tomato;
+}

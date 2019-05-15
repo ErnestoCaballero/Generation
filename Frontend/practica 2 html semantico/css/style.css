@@ -1,0 +1,32 @@
+h1
+{
+    color: blue;
+}
+
+header
+{
+    background-color: green;
+}
+
+nav
+{
+    background-color: bisque;
+}
+
+aside
+{
+    background-color: beige;
+}
+
+section
+{
+    background-color: azure;
+}
+
+article{
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: brown
+}

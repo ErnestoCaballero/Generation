@@ -1,0 +1,15 @@
+h2{
+    color: blue;
+}
+
+.parrafoPar{
+    background-color: aquamarine;
+}
+
+.parrafoImpar{
+    background-color: bisque;
+}
+
+#parrafo1, #parrafo3 {
+    text-align: center;
+}
